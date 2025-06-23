@@ -1,0 +1,1 @@
+package com.example.ecommerce.inventory.management.ecommerce.inventory.management.controller;
