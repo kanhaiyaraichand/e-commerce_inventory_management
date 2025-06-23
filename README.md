@@ -40,7 +40,7 @@ cd ecommerce-inventory-management
 
 Spring Boot-based e-commerce inventory system with Redis caching and PostgreSQL
 
-**2. Configure database & Redis**
+2. Configure database & Redis
 
 # PostgreSQL
 spring.datasource.url=jdbc:postgresql://localhost:5433/ecommerce_inventory
@@ -61,18 +61,19 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
 
-**3. Run the application**
+3. Run the application
 
 # Maven
 ./mvnw spring-boot:run
 
 
-**4. Access API docs**
+4. Access API docs
 Open: http://localhost:8081/swagger-ui.html
 
 **Running Tests**
 
 # Maven
 ./mvnw test
+
 
 
